@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6821107947722356873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1048404266464688255}
+  - component: {fileID: 4508562528477579024}
+  m_Layer: 0
+  m_Name: ClothMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1048404266464688255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6821107947722356873}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4508562528477579024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6821107947722356873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f2e239678f978147a73a88abea297c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dimX: 0
+  dimY: 0
+  delta: 0
+  axis1: {x: 0, y: 0, z: 0}
+  axis2: {x: 0, y: 0, z: 0}
+  vertexPrefab: {fileID: 6895289700757530679, guid: e405331bf90aff64bbb34c739cd75cdd,
+    type: 3}
+  edgePrefab: {fileID: 900768173238034648, guid: 52ff55f1fa0c2a146a37d0b08aa7765f,
+    type: 3}
+  shearPrefab: {fileID: 900768173238034648, guid: 2594177ef5cd5fe46ae6d17d186ee2d2,
+    type: 3}
+  bendPrefab: {fileID: 900768173238034648, guid: 393228dbaa13a0841a2c6f8ec63d112c,
+    type: 3}
+  shearOn: 0
+  bendOn: 0
+  initPos: {x: 0, y: 0, z: 0}
