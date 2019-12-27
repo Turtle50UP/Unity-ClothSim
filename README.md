@@ -1,0 +1,4 @@
+# Unity-ClothSim
+This is a student project for the Carnegie Mellon Course Technical Animation for the Spring 2019 semester.
+This is a Unity simulation for various methods of cloth simulation. Included variations are for the simulation method of discrete elements of cloth, integrator for the dynamics of those discrete elements, and user input for changing the constants which affect these components.
+Note: There is incorrect information contained in the simulation due having misunderstood and misused some terms in dynamic simulation. Also, there are other components implemented for the simulation which are very nonoptimal, such as an attempt to include friction into the simulation. It is recommended that the user assigns values to those quantities to minimize or remove the effects of those faulty components.
